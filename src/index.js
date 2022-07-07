@@ -11,7 +11,7 @@ root.render(
   <React.StrictMode>
     <Router>
       <Routes>
-        <Route path='/distinkt21' element={<App />}>
+        <Route path='distinkt21' element={<App />}>
           <Route index element={<Default />}></Route>
           <Route path='/default' element={<Default />}></Route>
         <Route path='/invoices' element={<p>Raju iss invoice</p>}></Route>
