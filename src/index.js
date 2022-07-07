@@ -9,7 +9,7 @@ import {BrowserRouter as Router, Routes,Link} from "react-router-dom";
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <Router basename='/distinkt21'>
+    <Router basename='/'>
       <Routes>
         <Route path='/' element={<App />}>
           <Route index element={<Default />}></Route>
